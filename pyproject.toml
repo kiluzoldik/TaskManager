@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "taskmanager"
+version = "0.1.0"
+description = ""
+authors = ["sadgrasses"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+motor = "^3.6.0"
+fastapi = "^0.115.5"
+redis = "^5.2.0"
+celery = "^5.4.0"
+uvicorn = "^0.32.1"
+pydantic = "^2.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
